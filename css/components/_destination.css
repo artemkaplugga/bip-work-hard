@@ -23,6 +23,15 @@
     justify-content: center;
 }
 
+.img__categories2 button img{
+    transition: transform 0.2s ease-in-out;
+}
+
+.img__categories2 button:hover img {
+    transition: 0.2s ease;
+    transform: scale(1.15);
+}
+
 .mountain__title {
     font-size: 24px;
     font-weight: 600;
@@ -80,9 +89,10 @@
 
 .destination__button {
     margin-left: auto;
-    background-color: #2D3134;
-    color: #fff;
+   
+    color: black;
     border-radius: 46px;
+    border: 1px solid black;
     display: flex;
     width: 100px;
     height: 37px;
@@ -92,9 +102,23 @@
     font-size: 14px;
     font-weight: 400;
     line-height: 14px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.destination__button:hover {
+    transition: 0.3s ease;
+    background-color: #2D3134;
+    color: white;
+}
+
+.destination__button__White:hover {
+    transition: 0.3s ease;
+    background-color: #2D3134;
+    color: white;
 }
 
 .destination__button__White {
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
     margin-left: auto;
     color: black;
     border: 1px solid black;
@@ -144,8 +168,9 @@
 }
 
 .top__destinations__buttons {
-    background-color: #2D3134;
-    color: white;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    color: black;
+    border: 1px solid black;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 20px;
@@ -154,8 +179,17 @@
 
 }
 
-.top__destinations__buttons--white {
+.top__destinations__buttons:hover {
+  
+    transition: 0.3s ease;
+    background-color: #2D3134;
+    color: white;
+}
 
+
+
+.top__destinations__buttons--white {
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 
     border: 1px solid black;
     padding-top: 10px;
@@ -166,6 +200,12 @@
     font-size: 14px;
     font-weight: 400;
     line-height: 14px;
+}
+
+.top__destinations__buttons--white:hover {
+    transition: 0.3s ease;
+    background-color: #2D3134;
+    color: white;
 }
 
 
@@ -198,7 +238,18 @@
     position: relative;
 }
 
+.img img {
+    transition: transform 0.3s ease-in-out;
+    
+}
+
+.img:hover img {
+    transform: scale(1.04);
+    
+}
+
 .destination__rating {
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
     padding: 5px 10px;
     background-color: white;
     border-radius: 12px;
@@ -207,10 +258,13 @@
     left: 27px;
 }
 
-.destination__rating.black {
+.destination__rating:hover{
+    transition: 0.3s ease;
     background-color: #2D3134;
     color: white;
 }
+
+
 
 .destination__vietnam {
     position: absolute;

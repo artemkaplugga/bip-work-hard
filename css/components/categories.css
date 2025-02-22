@@ -26,8 +26,18 @@
     gap: 16px;
     justify-content: center;
     align-items: center;
+    transition: transform 0.3s ease-in-out;
 
 
+}
+
+.img__categories button img{
+    transition: transform 0.2s ease-in-out;
+}
+
+.img__categories button:hover img {
+    transition: 0.2s ease;
+    transform: scale(1.15);
 }
 
 .categories__list {
@@ -51,3 +61,11 @@
 
 }
 
+.categories__item {
+    transition: transform 0.2s ease-in-out;
+}
+
+.categories__item:hover{
+    transition: 0.2s ease;
+    transform: scale(1.01);
+}

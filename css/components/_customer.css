@@ -88,6 +88,15 @@
 
 }
 
+.buttons__feedback button img{
+    transition: transform 0.2s ease-in-out;
+}
+
+.buttons__feedback button:hover img {
+    transition: 0.2s ease;
+    transform: scale(1.15);
+}
+
 .bottom__arrows {
     margin-left: auto;
     margin-top: auto;
