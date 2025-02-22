@@ -2,7 +2,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 74px;
 }
 
 
@@ -31,14 +30,11 @@
 .book__now{
     color: #F66F4D;
     display: flex;
+    margin-left: auto; 
+    margin-right: 135px;
     gap: 6px;
     align-items: center;
     padding: 19px 34px;
     border: 2px solid #F66F4D;
     border-radius: 27px;
-    transition: 0.3s ease;
-}
-
-.book__now:hover{
-    border-color: #880bd1;
 }

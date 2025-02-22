@@ -132,6 +132,7 @@
     margin-bottom: 28px;
 }
 
+
 .destination__btns {
     display: flex;
     gap: 14px;
@@ -154,6 +155,7 @@
 }
 
 .top__destinations__buttons--white {
+
 
     border: 1px solid black;
     padding-top: 10px;
@@ -225,4 +227,3 @@
     font-size: 20px;
     font-weight: 600;
 }
-
